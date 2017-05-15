@@ -14,6 +14,6 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 		<title>Angular example</title>
 	</head>
 	<body>
-		<angular4>Loading&hellip;</angular4>
+		<angular4-example>Loading&hellip;</angular4-example>
 	</body>
 </html>
