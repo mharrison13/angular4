@@ -7,7 +7,7 @@ import {BaconService} from "../services/bacon-service";
 
 export class BaconComponent implements OnInit {
 
-	numParagraphs : number = 3;
+	numParagraphs : number = 0;
 	paragraphs : string[] = [];
 
 	constructor(private baconService: BaconService) {}
