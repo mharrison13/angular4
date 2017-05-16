@@ -11,7 +11,7 @@
 
 		<!-- button -->
 		<div ng-controller="myController">
-			<input type="button" class="btn btn-outline-primary" value="Get Bacon" ng-click="getBacon()" > {{num}}
+			<input class="btn btn-primary" value="Get Bacon" ng-click="getBacon()" > {{num}}
 			<br>
 		</div>
 
