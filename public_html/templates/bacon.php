@@ -10,6 +10,7 @@
 		</div>
 
 		<!-- button -->
+		<br>
 		<div ng-controller="myController">
 			<input class="btn btn-primary" value="Get Bacon" ng-click="getBacon()" > {{num}}
 			<br>
