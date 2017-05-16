@@ -7,13 +7,11 @@
 				<i class="fa fa-hashtag" aria-hidden="true"></i>
 			</div>
 			<input type="number" id="baconNumParagraphs" name="baconNumParagraphs" class="form-control" required min="0" max="9" step="1" [(ngModel)]="numParagraphs" #baconNumParagraphs="ngModel" (change)="getBacon();" />
-
-			<!-- added button -->
-			<div ng-controller="myController">
-				<input type="button" value="Get Bacon" ng-click="getBacon()" > {{num}}
-				<br>
-			</div>
-
+		</div>
+		<!-- added button -->
+		<div ng-controller="myController">
+			<input type="button" value="Get Bacon" ng-click="getBacon()" > {{num}}
+			<br>
 		</div>
 		<div [hidden]="baconNumParagraphs.valid || baconNumParagraphs.pristine" class="alert alert-danger" role="alert">
 			<p *ngIf="baconNumParagraphs.errors?.max">Number of paragraphs cannot be more than 10.</p>
