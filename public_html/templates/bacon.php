@@ -10,9 +10,9 @@
 		</div>
 
 		<!-- button -->
+		<br>
 		<div ng-controller="myController">
-			<input type="button" class="btn btn-outline-primary" value="Get Bacon" ng-click="getBacon()" > {{num}}
-			<br>
+			<button type="button" class="btn btn-outline-primary" value="Get Bacon" ng-click="getBacon()" > {{num}}
 		</div>
 
 		<div [hidden]="baconNumParagraphs.valid || baconNumParagraphs.pristine" class="alert alert-danger" role="alert">
